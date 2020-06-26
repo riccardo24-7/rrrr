@@ -1,0 +1,90 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* Шапка сайта */
+#title {
+  background-color: #abf0e9;
+  /* background-color: #888888; */
+}
+
+.navbar {
+  /* background-color: #e3f2fd; */
+  background-color: rgb(227, 242, 253, 0.5);
+  /*Прозрачность меню*/
+}
+
+.name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.2rem;
+}
+
+.menu {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #000000;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.test1 {
+  width: 100%;
+  border-radius: 100px;
+}
+
+.bodytitle {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.butt {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Представление сайтика/контент */
+#intro .container-fluid {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.icon {
+  color: #00909e;
+}
+
+.icon:hover {
+  color: #27496d;
+}
+
+/* Главная часть страницы с некой информацией */
+#main {
+  background-color: #abf0e9;
+}
+
+.table_pic {
+  width: 15%;
+  /* margin: 0 20px 20px 0; */
+}
+@media (max-width: 1200px) {
+.table_pic {
+  width: 20%;
+}
+}
+@media (max-width: 990px) {
+  .table_pic{
+    width: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .table_pic{
+    width: 50%;
+  }
+}
