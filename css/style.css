@@ -1,7 +1,3 @@
-body {
-  text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
@@ -13,6 +9,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Шапка сайта */
 #title {
   background-image: url(../css/bck/titletest.png);
+  height: 650px;
+}
+
+@media (max-width: 990px) {
+  #title {
+    height: 900px;
+  }
 }
 
 .navbar {
@@ -26,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(-15deg);
   margin-left: 20px;
   line-height: 1.9rem;
-  color: #B35D3B;
+  color: #C46641;
 }
 
 #title .name:hover {
@@ -34,12 +37,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.4rem;
 }
 
 .text-title {
-  color: #D9CFC3;
+  color: #C46641;
 }
 
 .body-title {
@@ -48,6 +51,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .bodytitle {
   margin-top: 170px;
+  text-align: left;
+}
+
+@media (max-width: 990px) {
+  .bodytitle {
+    text-align: center;
+  }
 }
 
 .butt {
@@ -56,29 +66,49 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ff4c68;
   border-color: #ff4c68;
 }
+
 .butt:hover {
   background-color: #B8374A;
   border-color: #B8374A;
 }
 
-
 .video {
   border-radius: 10%;
   width: 100%;
+  margin-left: 60px;
+}
+
+@media (max-width: 990px) {
+  .video {
+    margin-left: 0px;
+  }
 }
 
 /* Представление сайтика/контент */
 #intro .container-fluid {
   padding: 7% 15%;
   background-color: #fff;
+  text-align: center;
+}
+
+
+.three {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2rem;
+}
+
+.text-three {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.15rem;
 }
 
 .icon {
-  color: #00909e;
+  color: #9BE0D9;
 }
 
 .icon:hover {
-  color: #27496d;
+  /* color: #27496d; */
+  color: #00909e;
 }
 
 /* Главная часть страницы с некой информацией */
@@ -86,23 +116,23 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #abf0e9;
 }
 
+.mainheader {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.header {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.foto {
+  width: 30%;
+}
+
 .table_pic {
   width: 15%;
   /* margin: 0 20px 20px 0; */
-}
-@media (max-width: 1200px) {
-.table_pic {
-  width: 20%;
-}
-}
-@media (max-width: 990px) {
-  .table_pic{
-    width: 30%;
-  }
-}
-
-@media (max-width: 800px) {
-  .table_pic{
-    width: 50%;
-  }
 }
